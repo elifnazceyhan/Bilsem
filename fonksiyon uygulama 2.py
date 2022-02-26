@@ -1,3 +1,9 @@
+#Kullanıcının adını gönderdiğinizde hoşgeldin"ad" şeklinde yazsın.
+ad=input("isminizi giriniz")
+def isim(ad):
+    print("hoşgeldin",ad)
+isim(ad)
+
 #Kendisine girilen sayının karesinin karesini hesaplayan program.
 sayi=int(input("sayi giriniz: "))
 def hesapla(a):
