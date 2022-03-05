@@ -1,0 +1,12 @@
+def bilgilerigoster(ad,soyad,no,adres,tel):
+    print("Adınızı giriniz:" ,ad)
+    print("soyadınızı giriniz:", soyad)
+    print("numaranızı giriniz:", no)
+    print("adresinizi giriniz:", adres)
+    print("Telefonunuzu giriniz:", tel)
+name=input("adınız:")
+surname=input("soyadınız:")
+number=int(input("numaranız:"))
+adress=input("adresiniz:")
+telephone=int(input("telefonunuz:"))
+bilgilerigoster(ad=name ,soyad=surname, no=number,adres=adress, tel=telephone)
